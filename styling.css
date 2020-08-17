@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;    
+}
+
+body{
+    background-color: #F3F3F8;
+    -webkit-background-color: #F3F3F8;
+    -o-background-color: #F3F3F8;
+    -moz-background-color: #F3F3F8;
+    
+    color: #444444;
+}
+
+.container{
+    display: flex;
+/*    width: 87%;*/
+/*    margin: 20px auto;*/
+/*    padding: 17px 75px;*/
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: left;
+    line-height: 2.2em;
+    letter-spacing: 1px;
+    flex-direction: column;
+}
+
+.content{
+/*    flex: 1;*/
+    width: 87%;
+    margin: 17px auto;
+/*    padding: 17px 75px;*/
+}
+
+#tittle{
+    font-size: 25px;
+    font-weight: 400;
+    padding: 0 0 15px 0;
+}
+
+#image{
+    padding: 30px 0;
+    display: flex;
+/*    align-items: center;*/
+    justify-content: center;
+}
+#image img{
+    max-width: 500px;
+/*
+    max-height: 333px;  
+    min-width: 450px;
+    min-height: 300px;
+*/
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#text{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+/*    font-weight: 300;    */
+}
+#text a{
+    text-decoration: none;
+    color: #2E81BC;
+    font-weight: bold
+}
+
+.button1{
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;    
+
+}
+#button1{
+    display: flex;
+    background: linear-gradient(#FFFE66, #FFA134);
+    background: -webkit-linear-gradient(#FFFE66, #FFA134);
+    background: -o-linear-gradient(#FFFE66, #FFA134);
+    background: -moz-linear-gradient(#FFFE66, #FFA134);
+    width: 250px;
+    height: 60px;
+    font-size: 1em;
+    font-weight: 500;
+    border-color: black;
+    border-style:solid;
+    border-radius: 10px;
+    border-width: thin;
+    justify-content: center;  
+    align-items: center;
+    text-shadow: #FFF 1px 1px 1px;
+}
+#button2{
+    display: flex;
+    background: linear-gradient(#FFFE66, #FFA134);
+    background: -webkit-linear-gradient(#FFFE66, #FFA134);
+    background: -o-linear-gradient(#FFFE66, #FFA134);
+    background: -moz-linear-gradient(#FFFE66, #FFA134);
+    width: 450px;
+    height: 90px;
+    font-size: 1.6em;
+    font-weight: 500;
+    border-color: black;
+    border-style:solid;
+    border-radius: 10px;
+    border-width: thin;
+    justify-content: center;  
+    align-items: center;
+    text-shadow: #FFF 1px 1px 1px;
+}
+#button1 a{
+    text-decoration: none;
+    color: black;
+}
+#button2 a{
+    text-decoration: none;
+    color: black;
+}
+
+#description{
+    padding: 15px 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+.header{
+    display: flex;
+/*    flex: 1;*/
+    flex-direction: column;
+/*    margin: 17px auto;*/
+    padding: 10px 3%;
+	background-color: #07025a;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.6em;
+    letter-spacing: 1px;
+}
+.header p{
+    margin: 15px 0 0 0;
+}
+
+
+.footer{
+    display: flex;
+/*    flex: 1;*/
+    flex-direction: column;
+/*    margin: 17px auto;*/
+    padding: 10px 3%;
+	background-color: #07025a;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.6em;
+    letter-spacing: 1px;
+}
+.footer p{
+    margin: 15px 0 0 0;
+}
+
+/* EXTRAS NEW*/
+.extrasnew{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0;
+/*    flex: 1;*/
+}
+#colunas{
+    flex: 1;
+}
+#tittlesnew{
+    color: white;
+    font-family: impact;
+    font-size: 17px;
+}
+#picsnew{
+    padding: 20px 0;
+}
+#picsnew img{
+/*    width: 60%;*/
+    max-width: 200px;
+/*    min-width: 150px;*/
+}
+
+
+
+/* small screens */
+@media screen and (max-width: 780px){
+    .extrasnew{
+        flex-direction: column;
+    } 
+    
+    #colunas{
+        padding: 20px 0;
+    }
+}
+
+a:link, a:visited {
+	color: #FFFFFF;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
